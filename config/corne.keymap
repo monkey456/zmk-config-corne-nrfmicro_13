@@ -83,10 +83,10 @@
 
         windows_default_layer {
             bindings = <
-&none  &kp Q  &kp W  &kp F     &kp P     &kp G    &kp J             &kp L              &kp U      &kp Y    &kp BSPC  &none
-&none  &kp A  &kp R  &kp S     &kp T     &kp D    &kp H             &kp N              &kp E      &kp I    &kp O     &none
-&none  &none  &kp X  &kp C     &kp V     &kp B    &kp K             &kp M              &kp COMMA  &kp DOT  &none     &none
-                     &kp LGUI  &kp LALT  &none    &lt WIN_CODE TAB  &lt WIN_NUM ENTER  &none
+&none  &kp Q  &kp W  &kp E      &kp R        &kp T                 &kp Y               &kp U           &kp I      &kp O    &kp P      &none
+&none  &kp A  &kp S  &kp D      &kp F        &kp G                 &kp H               &kp J           &kp K      &kp L    &kp ENTER  &none
+&none  &kp Z  &kp X  &kp C      &kp V        &kp B                 &kp N               &kp M           &kp COMMA  &kp DOT  &kp FSLH   &none
+                     &lt 4 SQT  &lt 2 SPACE  &mt LCTRL LEFT_WIN    &lt WIN_CODE SPACE  &kp LEFT_SHIFT  &kp SQT
             >;
         };
 
