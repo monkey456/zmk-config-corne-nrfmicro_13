@@ -56,6 +56,26 @@
             bindings = <&kp ENTER>;
             key-positions = <21 22>;
         };
+
+        btcr {
+            bindings = <&bt BT_CLR>;
+            key-positions = <5 4>;
+        };
+
+        bl {
+            bindings = <&bootloader>;
+            key-positions = <29 28>;
+        };
+
+        key- {
+            bindings = <&kp MINUS>;
+            key-positions = <19 20>;
+        };
+
+        keys+ {
+            bindings = <&kp EQUAL>;
+            key-positions = <21 20>;
+        };
     };
 
     keymap {
