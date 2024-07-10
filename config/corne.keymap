@@ -34,6 +34,30 @@
         // Emoji
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <1 2>;
+        };
+
+        bksp {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <10 9>;
+        };
+
+        caps {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <14 13>;
+        };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <21 22>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
